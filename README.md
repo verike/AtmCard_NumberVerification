@@ -12,5 +12,11 @@ system identifies the card type and displays it beside the input box and does a 
 
 (ii)    Verifies the Atm card type requirements based on Bank Standard Atm Card Number system.
 
+## How To Use
 
-*This program will be updated, if there are any modifications made to it.
+i.      Clone this repo to your local machine, using `git clone {repo-url}`.
+ii.     Edit Card Number to User's Card Number.
+iii.    Run the code through the terminal, using `node index.js`.
+
+
+**This program will be updated, if there are any modifications made to it.**
