@@ -1,7 +1,8 @@
 
-let cardNumber = "3345 7984 0839 6736"
+// This default card number can be changed with or without the spaces
+let card = "5345 7984 0839 6736"
 
-// Verify CardType
+// Confirm ATM CardType
 function confirmCardType(cardNumber) {
 
     let visaRegEx = /^4(\d).+$/
@@ -20,7 +21,7 @@ function confirmCardType(cardNumber) {
 
 }
 
-// Verify Card Number
+// Verify ATM Card Number
 function verifyCardNumber (cardNumber, cardType) {
     
     let visaCardRegEx = /^4(\d){3}(.?(\d){4}){3}$/
@@ -35,6 +36,8 @@ function verifyCardNumber (cardNumber, cardType) {
 
 }
 
+// Confirming Card Type
 let cardType = confirmCardType(card);
 
+// Verifying Atm Card Number
 verifyCardNumber(card, cardType);
