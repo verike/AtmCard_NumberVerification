@@ -15,7 +15,7 @@ system identifies the card type and displays it beside the input box and does a 
 ## How To Use
 
 i.      Clone this repo to your local machine, using `git clone {repo-url}`.
-ii.     Edit Card Number to User's Card Number.
+ii.     Run the following code for program to accept user input, `npm install prompt-sync`.
 iii.    Run the code through the terminal, using `node index.js`.
 
 
