@@ -1,6 +1,7 @@
+const prompt = require("prompt-sync")();
 
-// This default card number can be changed with or without the spaces
-let card = "5345 7984 0839 6736"
+// Request for User's card number and store
+let card = prompt("Enter your card number : ")
 
 // Confirm ATM CardType
 function confirmCardType(cardNumber) {
