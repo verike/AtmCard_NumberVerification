@@ -25,8 +25,8 @@ function confirmCardType(cardNumber) {
 // Verify ATM Card Number
 function verifyCardNumber (cardNumber, cardType) {
     
-    let visaCardRegEx = /^4(\d){3}(.?(\d){4}){3}$/
-    let masterCardRegEx = /^5(\d){3}(.?(\d){4}){3}$/
+    let visaCardRegEx = /^4(\d){3}(\s?(\d){4}){3}$/
+    let masterCardRegEx = /^5[1-5](\d){2}(\s?(\d){4}){3}$/
 
     if (cardType == '1') {
         console.log(`Card Verification : ${visaCardRegEx.test(cardNumber)}`);
